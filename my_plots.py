@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open('2OMF\\test_19570_0_all_rank_001_alphafold2_ptm_model_2_seed_000.pickle', 'rb') as f:
+with open('vizfold-intern-exercise\\sample_data.pickle', 'rb') as f:
     data = pickle.load(f)
 
 single_plot = data['representations']['single']  # shape: (L, 256)
