@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
-with open('vizfold-intern-exercise/sample_data.pickle', 'rb') as f:
+with open('1G1J\\test_8b3e9_all_rank_001_alphafold2_ptm_model_3_seed_000.pickle', 'rb') as f:
     data = pickle.load(f)
 
 # we need all the representations to be of the same size
